@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    /* border-radius: 50%; */
+}
+
+.mainp1 {
+    display: flex;
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+}
+
+#mb1 {
+    margin-left: 70%;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+#mb2 {
+    margin-left: 2%;
+    height: 59%;
+    width: 10%;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+.mg1 {
+    margin-left: 5%;
+    height: 50%;
+    width: 7%;
+}
+
+.mainp2 {
+    display: flex;
+    height: 90%;
+    width: 100%;
+    /* background-color:azure; */
+}
+
+.mainp2-p1 {
+    height: 100%;
+    width: 50%;
+    background-color: black;
+}
+
+.img1 {
+    margin-left: 20%;
+    margin-top: 14.3%;
+    height: 84%;
+    width: 85%;
+}
+
+.mainp2-p2 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    color: white;
+    height: 100%;
+    width: 50%;
+    background-color: black;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    height: 75%;
+    width: 50%;
+    /* background-color:gainsboro; */
+    align-items: center;
+}
+
+.hlo {
+    /* background-color:lightblue; */
+    height: 15%;
+    width: 70%;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#in1 {
+    height: 20%;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10%;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+}
+
+#in2 {
+    margin-top: 5%;
+    height: 20%;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+}
+
+#p1 {
+    margin-top: 2%;
+    margin-left: 47%;
+}
+
+#a1 {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+#b1 {
+    height: 15%;
+    width: 70%;
+    margin-top: 6%;
+    margin-left: 15%;
+    border-radius: 8px;
+    border: none;
+    color: black;
+}
+
+#p2 {
+    margin-top: 5%;
+    margin-left: 31%;
+    word-break: 15px;
+}
+
+#b2 {
+    border-radius: 50%;
+    height: 15%;
+    width: 14%;
+    margin-top: 5%;
+    margin-left: 22%;
+    border: none;
+    /* position: relative;
+    bottom: 1%; */
+}
+
+#b3 {
+    border-radius: 50%;
+    height: 15%;
+    width: 14%;
+    margin-top: 7%;
+    margin-left: 5%;
+    border: none;
+}
+
+#b5 {
+    border-radius: 50%;
+    height: 45px;
+    width: 14%;
+  margin-left: 5%; 
+  margin-bottom: 0px;
+    border: none;
+}
+
+.bim1 {
+    height: 79%;
+    width: 79%;
+    border-radius: 50%;
+    margin-top: 13%;
+}
+
+.bim2 {
+    height: 81%;
+    width: 81%;
+    margin-top: 9%;
+    border-radius: 50%;
+}
+
+.bi3 {
+    height: 80%;
+    margin-top: 5px;
+    width: 79%;
+    border-radius: 50%;
+}
+
+#a2 {
+    position: relative;
+    top: 550%;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+
+}
+
+b {
+
+    position: relative;
+    top: 550%;
+    left:7px;
+}
+
+.main3 {
+    display: none;
+}
+
+@media (max-width:400px) {
+    body {
+        display: inline-block;
+        overflow-x: hidden;
+        width: 100vw;
+    }
+
+    .mainp2-p1 {
+        display: flex;
+        height: 91vh;
+        width: 150vw;
+        /* background-color:black; */
+        background-image: url("image/img1.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* backdrop-filter: blur(10px); */
+        /* opacity:30%; */
+
+    }
+
+    .main {
+        height: 90%;
+        width: 90%;
+
+    }
+
+    main .mg1 {
+        height: 70%;
+        width: 70%;
+    }
+
+    .mg1 {
+        height: 20%;
+        width: 20%;
+    }
+
+    #mb1 {
+        margin-left: 40%;
+    }
+
+    #mb2 {
+        height: 50%;
+        width: 20%;
+    }
+
+    .img1 {
+        display: none;
+    }
+
+    .mainp2-p2 {
+        display: none;
+    }
+
+    .main3 {
+        right: 40%;
+        position: relative;
+        display: flex;
+        z-index: 4;
+    }
+
+}
